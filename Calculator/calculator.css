@@ -1,0 +1,97 @@
+*
+{
+    color:rgba(255, 127, 80, 0.527);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+.outer
+{
+    height: 500px;
+    width: 400px;
+    border: 2px solid lavender;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: auto;
+    margin-top: 130px;
+    background-color: pink;
+    
+
+}
+
+.display
+{
+    width: 90%;
+    height:60px;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid lavender;
+    border-radius: 10px; ;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: lavender;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+
+.bottom
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 400px;
+    width: 350px;
+    border:1px solid lavender ;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.four
+{
+    border:2px solid lavender;
+    width: 50px;
+    height: 50px;
+    background-color: lavender;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;    
+}
+
+.four:hover
+{
+    background-color: pink;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.one
+{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    width:50px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.one:hover
+{
+    background-color: lavender;
+    width: 55px;
+    height: 55px;
+    transition: 0.2s;
+    cursor: pointer;
+}
